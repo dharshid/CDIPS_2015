@@ -73,5 +73,5 @@ if __name__ == "__main__":
     data = pd.read_csv("topgroups.csv")
     edges = getEdges(data)
     print edges
-    printGEXFGraphFile(data, "pyFileTest.gexf", edges)
+    printGEXFGraphFile(data, "graphNetworkTop50.gexf", edges)
         
